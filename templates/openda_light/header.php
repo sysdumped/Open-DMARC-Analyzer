@@ -56,8 +56,9 @@ this program.  If not, see <https://www.gnu.org/licenses/>.
   </head>
   <body>
     <div id="header">
-      <a href="index.php"><h1 class="header">Open DMARC Analyzer</h1></a>
+      <a href="index.php" style="display: flex; align-items: center;">
+      <img src="https://soliddata.cloud/logo.svg" alt="Logo" style="width: 230px; height: auto; margin-right: 10px;">
+      <h1 class="header">DMARC Report Analyzer</h1></a>
     </div>
     <?php control_bar($page, $domain, $dateRange, $ip); ?>
     <div id="wrapper">
-
